@@ -4,7 +4,7 @@
 %global crate dnsi
 
 Name:           rust-dnsi
-Version:        0.1.0
+Version:        0.2.0
 Release:        %autorelease
 Summary:        Tool for investigating the DNS
 
@@ -22,7 +22,7 @@ A tool for investigating the DNS.}
 %package     -n %{crate}
 Summary:        %{summary}
 # FIXME: paste output of %%cargo_license_summary here
-License:        # FIXME
+License:        BSD-3-Clause
 # LICENSE.dependencies contains a full license breakdown
 
 %description -n %{crate} %{_description}
